@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 10px;
+  background: linear-gradient(135deg,
+  rgb(255, 255, 255) 25%,
+  rgb(247, 255, 142) 50%,
+  rgb(242, 255, 66) 75%,
+  );  opacity: 1;
+}
+.photo {
+  display: block;
+  opacity: 1;
+}
+.des {
+  display: block;
+  background: linear-gradient(135deg,
+  rgb(255, 255, 255) 5%,
+  rgb(247, 255, 142) 50%,
+  rgb(242, 255, 66) 75%,
+  );
+  opacity: 1;
+}
